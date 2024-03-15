@@ -1,0 +1,22 @@
+
+<> DiscreteMath
+What is the coefficient of a^#6 * b^#7 in the expanded form of (#1a^#2+#3b^#4)^#5?
+#5 choose (#6/#2) * #1^(#6/#2) * #3^(#7/#4)
+#1 = RND  
+#2 = RNDW
+#3 = RND
+#4 = RNDW
+#5 = RND
+#6 = #8 * #2
+#7 = ( #5 - #8 ) * #4
+#8 = RNDR(#5)
+[]
+
+Key:
+# followed by a number: array position N+1
+RND - Random Integer up to 20
+RNDN - Random Integer up to 20, can be negative or positive
+RNDW - Random Integer up to 20, usually returns 1
+RNDR(#) - Random Integer up to #-1
+RNDD - Random Double up to 20
+
