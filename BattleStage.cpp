@@ -29,6 +29,8 @@ bool BattleStage(int intEnemyCourse, int& intPlayerHealth) {
 			cout << "\nAll done? Let's attack the course!";
 		}
 	}
+	cout << "\n\n";
 
 	return true;
+	return BattleActive(intEnemyCourse, intPlayerHealth);
 }
