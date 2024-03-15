@@ -13,3 +13,6 @@ int rndr(int num);
 
 //Random Double up to 20
 double rndd();
+
+//Fills the placeholders in the templates.
+int* fillTemp(char fileContents[]);
