@@ -128,6 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ECUSpark2024.cpp" />
+    <ClCompile Include="templates.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="templates.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
