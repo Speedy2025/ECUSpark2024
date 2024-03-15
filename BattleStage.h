@@ -10,4 +10,4 @@ bool BattleStage(int intEnemyCourse, int& intPlayerHealth);
 bool BattlePractice(int intEnemyCourse);
 
 //The Main Battle Controller, returns if they won or lost
-bool BattleActive(int intEnemyCourse, int& intPlayerHealth);
+//bool BattleActive(int intEnemyCourse, int& intPlayerHealth);

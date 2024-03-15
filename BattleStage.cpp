@@ -26,11 +26,42 @@ bool BattleStage(int intEnemyCourse, int& intPlayerHealth) {
 		cout << "\nGood idea!";
 		while (morePractice) {
 			morePractice = BattlePractice(intEnemyCourse);
-			cout << "\nAll done? Let's attack the course!";
 		}
+		cout << "\nAll done? Let's attack the course!";
 	}
 	cout << "\n\n";
 
 	return true;
-	return BattleActive(intEnemyCourse, intPlayerHealth);
+		//BattleActive(intEnemyCourse, intPlayerHealth);
+}
+
+bool BattlePractice(int intEnemyCourse) {
+	char chrResponce;
+
+	if (intEnemyCourse == 1) {
+
+	}
+	else if (intEnemyCourse == 2) {
+		//fillTemp()
+	}
+	else if (intEnemyCourse == 3) {
+		//fillTemp()
+	}
+	else if (intEnemyCourse == 4) {
+		//fillTemp()
+	}
+	else if (intEnemyCourse == 5) {
+		//fillTemp()
+	}
+	else {
+		cout << "You defied all laws of reality. Sorry, but you cannot be allowed to live.\n";
+	}
+
+	cout << "Want to practice again?\n";
+	cin >> chrResponce;
+	if (chrResponce == 'n' || chrResponce == 'N') {
+		cout << "\n";
+	}
+
+	return true;
 }

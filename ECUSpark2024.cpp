@@ -28,9 +28,9 @@ int main()
     Sleep(4000);
 
     //Battle for your academic career!
-    while (!blnLost && i++ < 5) {
+    /*while (!blnLost && i++ < 5) {
         blnLost = BattleStage(i, hp);
-    }
+    }*/
 
     
 }
