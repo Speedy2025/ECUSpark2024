@@ -1,6 +1,7 @@
 #include <iostream>
 #include <Windows.h>
 #include "BattleStage.h"
+#include "templates.h"
 
 using namespace std;
 

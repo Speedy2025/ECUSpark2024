@@ -2,4 +2,7 @@
 
 bool BattleStage(int intEnemyCourse, int& intPlayerHealth) {
 
+
+
+	return true;
 }

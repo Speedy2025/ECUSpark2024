@@ -18,13 +18,13 @@
     <ClCompile Include="ECUSpark2024.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BattleStage.cpp">
+    <ClCompile Include="templates.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BattleStage.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="templates.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
