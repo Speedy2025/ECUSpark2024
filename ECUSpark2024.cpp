@@ -9,7 +9,7 @@ int main()
 {
     bool blnLost = false;
     int i = 0;
-    int hp = 0;
+    int hp = 100;
 
     cout << "As a student at East Carolina University, you find yourself in a horrible situation.\n";
     Sleep(5000);
