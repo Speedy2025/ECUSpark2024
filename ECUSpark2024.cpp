@@ -9,7 +9,7 @@ int main()
 {
     bool blnLost = false;
     int i = 0;
-    int hp = 0;
+    int hp = 100;
 
     cout << "As a student at East Carolina University, you find yourself in a horrible situation.\n";
     Sleep(5000);
@@ -27,10 +27,10 @@ int main()
     cout << "\n\nEagar for the chance to pass and be in good academic standing, you jump in without a second thought to the consequences.";
     Sleep(4000);
 
-    //Battle for your academic career! 
-    while (!blnLost && i++ < 5) {
+    //Battle for your academic career!
+    /*while (!blnLost && i++ < 5) {
         blnLost = BattleStage(i, hp);
-    }
+    }*/
 
     
 }

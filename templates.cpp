@@ -101,7 +101,7 @@ void displayQuestion(const char fileContents[], const int filler[])
 				std::cout << filler[7];
 				break;
 			}
-		}
+		} 
 
 		std::cout << fileContents[character];
 

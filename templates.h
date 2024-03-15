@@ -16,3 +16,5 @@ double rndd();
 
 //Fills the placeholders in the templates.
 int* fillTemp(char fileContents[]);
+ 
+void displayQuestion(const char fileContents[], const int filler[]);
